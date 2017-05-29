@@ -1,4 +1,9 @@
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Home~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#Wrapper {
+	margin: 0 auto;
+	margin-top: 90px;
+	max-width: 600px;
+}
 
 .videoWrapper {
 	position: relative;

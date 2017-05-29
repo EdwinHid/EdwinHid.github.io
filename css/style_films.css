@@ -1,13 +1,19 @@
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Films~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#Wrapper {
+	margin: 0 auto;
+	max-width: 800px;
+}
 
 #title {
 	font-weight: 100;
 	text-align: center;
+	margin: 0;
 }
 
 #filmsWrapper {
 	width: 100%;
 	text-align: center;
+	margin-top: 70px;
 	/*padding: 10px;*/
 /*	display: -webkit-flex;
 	display: flex;

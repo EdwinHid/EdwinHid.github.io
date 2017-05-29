@@ -1,4 +1,8 @@
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Film~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#Wrapper {
+	margin: 0 auto;
+	max-width: 600px;
+}
 
 #title {
 	font-weight: 100;

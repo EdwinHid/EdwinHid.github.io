@@ -1,0 +1,139 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Photography~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#Wrapper {
+	margin: 0 auto;
+	max-width: 800px;
+}
+
+#whitediv {
+	width: 40px;
+	height: 100%;
+	background-color: white;
+	position: fixed;
+	left: 0;
+}
+
+#title {
+	font-weight: 100;
+	text-align: center;
+	margin: 0;
+/*	position: absolute;
+	width: calc(100% - 270px);*/
+	/*background-color: white;*/
+/*	top: 0px;
+	height: 100px;
+	line-height: 100px;*/
+
+/*      position: relative;
+    top: 150px;
+    color: white;
+    text-align: center;*/
+  }
+
+  #albumTitle {
+  	font-weight: 100;
+  	margin-bottom: 10px;
+  	margin-top: 70px;
+  	color: #5d5b5b;
+  }
+
+  #longHorizontal {
+  	overflow-x: auto;
+  	width: 100%;
+  }
+
+  #photographyWrapper {
+  	/*width: 100%;*/
+  	width: 180%;  
+  	height: 100%;
+  	text-align: center;
+  	overflow: hidden;
+  	/*padding-top: 60px;                      */
+  	/*padding: 10px;*/
+/*	display: -webkit-flex;
+	display: flex;
+	webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;*/
+}
+
+/*.albumWrapper {
+	width: 25%;
+	height: 100%
+	}*/
+
+	.album {
+		/*padding: 10px;*/
+		display: inline-block;
+		/*width: 100%;*/
+		/*width: 22.5%;*/
+		width: 25%;
+		/*max-width: 500px;*/
+		float: left;
+		/*height: 100%;*/
+		/*position: relative;*/
+		/*height: auto;*/
+		text-align: left;
+		text-decoration: none;
+		margin-bottom: 40px;
+		/*margin-right: 2.5%;*/
+		color: black;
+	}
+
+	.album:hover {
+		color: #dcc1c1;
+		cursor: pointer;
+	}
+
+	.overlay {
+		margin-right: 5%;
+	}
+
+	.album:hover > .overlay {
+		-webkit-transition: all 200ms ease;
+		-moz-transition: all 200ms ease;
+		-ms-transition: all 200ms ease;
+		-o-transition: all 200ms ease;
+		transition: all 200ms ease;
+		/*position: absolute;*/
+		background-color: #000;
+		opacity: 0.8;
+		border-radius: 30px;
+	}
+
+	.image {
+		/*background: url(images/chipmunk.jpg);*/
+		/*background-size: contain;*/
+		float: left;
+		width: 100%;
+		height: 100%;
+		/*position: relative;*/
+		/*padding: 10px;*/
+	}
+
+	.image:hover > .overlay {
+		width:100%;
+		height:100%;
+		position:absolute;
+		background-color:#000;
+		opacity:0.5;
+		border-radius:30px;
+	}
+
+	.album .name {
+		/*padding-top: 1px;*/
+		position: relative;
+		bottom: 150px;
+		color: white;
+		text-align: center;
+		font-weight: 100;
+		font-size: 50px;
+		margin-right: 5%;
+		height: 0px;
+	}
+
+	.album time {
+		padding-top: 1px;
+		color: #5d5b5b;
+		font-weight: 100;
+	}
