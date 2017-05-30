@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="css/style_page.css" type="text/css">
 	<link rel="stylesheet" href="css/style_photography.css" type="text/css">
 	<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+	<script src="js/script_photography.js" type="text/javascript"></script>
 	<!-- <link src="js/script_films.js" type="text/javascript"> -->
 </head>
 <body>
@@ -39,45 +40,123 @@
 			<div id="pageWrapper">
 				<div id="Wrapper" >
 					<h1 id="title">Photography</h1>
-					<h4 id="albumTitle">Albums</h4>
+					<h4 id="albumSectionTitle"><p id="at_album">Albums</p> &nbsp;<p class="albumTitle" id="at_asia">Asia</p> / <p class="albumTitle" id="at_america">America</p> / <p class="albumTitle" id="at_europe">Europe</p> / <p class="albumTitle" id="at_blackwhite">Black &amp; White</p></h4>
+					<!-- before click -->
 					<div id="longHorizontal">
 						<div id="photographyWrapper">
 							<!-- <div class="albumWrapper"> -->
 							<a class="album">
 								<!-- <div style="width:295px; height: 166px;"><img src="https://i.vimeocdn.com/video/618676575_295x166.webp" srcset="https://i.vimeocdn.com/video/618676575_590x332.webp 2x" alt="" class="thumbnail thumbnail_lg_wide"></div> -->
 
-								<div class="overlay"><img class="image" src="images/chipmunk.jpg"></div>
-								<div class="name">Asia</div>
+								<div class="overlay"><img class="image" id="asia" src="images/chipmunk.jpg" style="-webkit-filter: saturate(3); filter: saturate(3);"></div>
+								<div class="name" id>Asia</div>
 							</a>
 							<!-- </div> -->
 							<!-- <div class="albumWrapper"> -->
-							<a class="album">
+							<a class="album" id="america">
 								<!-- <div style="width:295px; height: 166px;"><img src="https://i.vimeocdn.com/video/618676575_295x166.webp" srcset="https://i.vimeocdn.com/video/618676575_590x332.webp 2x" alt="" class="thumbnail thumbnail_lg_wide"></div> -->
 
-								<div class="overlay"><img class="image" src="images/chipmunk.jpg"></div>
+								<div class="overlay"><img class="image" src="images/chipmunk.jpg" style="-webkit-filter: grayscale(100%); filter: grayscale(100%);"></div>
 								<div class="name">America</div>								
 							</a>
 								<!-- </div> -->
 								<!-- <div class="albumWrapper"> -->
-								<a class="album">
+								<a class="album" id="europe">
 									<!-- <div style="width:295px; height: 166px;"><img src="https://i.vimeocdn.com/video/618676575_295x166.webp" srcset="https://i.vimeocdn.com/video/618676575_590x332.webp 2x" alt="" class="thumbnail thumbnail_lg_wide"></div> -->
-									<div class="overlay"><img class="image" src="images/chipmunk.jpg"></div>
+									<div class="overlay"><img class="image" src="images/chipmunk.jpg" style="-webkit-filter: contrast(160%); filter: contrast(160%);"></div>
 									<div class="name">Europe</div>
 								</a>
 								<!-- </div> -->
 								<!-- <div class="albumWrapper"> -->
-								<a class="album">
+								<a class="album" id="blackwhite">
 									<!-- <div style="width:295px; height: 166px;"><img src="https://i.vimeocdn.com/video/618676575_295x166.webp" srcset="https://i.vimeocdn.com/video/618676575_590x332.webp 2x" alt="" class="thumbnail thumbnail_lg_wide"></div> -->
 									
-									<div class="overlay"><img class="image" src="images/chipmunk.jpg"></div>
+									<div class="overlay"><img class="image" src="images/chipmunk.jpg" style="-webkit-filter: brightness(0.25); filter: brightness(0.25);"></div>
 									<div class="name">Black &amp; White</div>
 								</a>
 								<!-- </div> -->
 							</div>
 						</div>
 					</div>
+					<!-- after click -->
+					<!-- Asia display -->
+					<div class="photoDisplay" id="asiaDisplay">
+						<img class="image" src="images/chipmunk.jpg">
+						<img class="image" src="images/chipmunk.jpg">
+						<img class="image" src="images/chipmunk.jpg">
+						<img class="image" src="images/chipmunk.jpg">
+						<img class="image" src="images/chipmunk.jpg">
+						<img class="image" src="images/chipmunk.jpg">
+						<img class="image" src="images/chipmunk.jpg">
+						<img class="image" src="images/chipmunk.jpg">
+					</div>
+					<!-- America display -->
+					<div class="photoDisplay" id="americaDisplay">
+						<img class="image" src="images/chipmunk.jpg">
+						<img class="image" src="images/chipmunk.jpg">
+						<img class="image" src="images/chipmunk.jpg">
+						<img class="image" src="images/chipmunk.jpg">
+						<img class="image" src="images/chipmunk.jpg">
+						<img class="image" src="images/chipmunk.jpg">
+						<img class="image" src="images/chipmunk.jpg">
+						<img class="image" src="images/chipmunk.jpg">
+					</div>
+					<!-- Europe display -->
+					<div class="photoDisplay" id="europeDisplay">
+						<img class="image" src="images/chipmunk.jpg">
+						<img class="image" src="images/chipmunk.jpg">
+						<img class="image" src="images/chipmunk.jpg">
+						<img class="image" src="images/chipmunk.jpg">
+						<img class="image" src="images/chipmunk.jpg">
+						<img class="image" src="images/chipmunk.jpg">
+						<img class="image" src="images/chipmunk.jpg">
+						<img class="image" src="images/chipmunk.jpg">
+					</div>
+					<!-- BlackWhite display -->
+					<div class="photoDisplay" id="blackwhiteDisplay">
+						<img class="image" src="images/chipmunk.jpg">
+						<img class="image" src="images/chipmunk.jpg">
+						<img class="image" src="images/chipmunk.jpg">
+						<img class="image" src="images/chipmunk.jpg">
+						<img class="image" src="images/chipmunk.jpg">
+						<img class="image" src="images/chipmunk.jpg">
+						<img class="image" src="images/chipmunk.jpg">
+						<img class="image" src="images/chipmunk.jpg">
+					</div>
 				</div>
 			</div>
 		</div>
+
+		<script type="text/javascript">
+		$( "#at_album" ).click(function() {
+			$(".photoDisplay").hide();
+			$("#longHorizontal").show();
+		});
+
+		$( "#asia, #at_asia" ).click(function() {
+			$("#longHorizontal").hide();
+			$(".photoDisplay").hide();
+			$("#asiaDisplay").show();
+		});
+
+		$( "#america, #at_america" ).click(function() {
+			$("#longHorizontal").hide();
+			$(".photoDisplay").hide();
+			$("#americaDisplay").show();
+		});
+
+		$( "#europe, #at_europe" ).click(function() {
+			$("#longHorizontal").hide();
+			$(".photoDisplay").hide();
+			$("#europeDisplay").show();
+		});
+
+		$( "#blackwhite, #at_blackwhite" ).click(function() {
+			$("#longHorizontal").hide();
+			$(".photoDisplay").hide();
+			$("#blackwhiteDisplay").show();  
+		});
+		</script>
+
 	</body>
 	</html>

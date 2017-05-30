@@ -29,11 +29,21 @@
     text-align: center;*/
   }
 
-  #albumTitle {
-  	font-weight: 100;
+  #albumSectionTitle {
+  	font-weight: 500;
   	margin-bottom: 10px;
   	margin-top: 70px;
   	color: #5d5b5b;
+  	display: inline-block;
+  }
+
+  #at_album {
+  	display: inherit;
+  }
+
+  .albumTitle {
+  	display: inherit;
+  	font-weight: 100;
   }
 
   #longHorizontal {
@@ -137,3 +147,43 @@
 		color: #5d5b5b;
 		font-weight: 100;
 	}
+
+
+
+	/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ photo display ~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.photoDisplay {
+	display: none;
+}
+
+#asiaDisplay {
+
+}
+
+#asiaDisplay .image {
+	-webkit-filter: saturate(3); filter: saturate(3);
+}
+
+#americaDisplay {
+
+}
+
+#americaDisplay .image{
+-webkit-filter: grayscale(100%); filter: grayscale(100%);
+}
+
+#europeDisplay {
+
+}
+
+#europeDisplay .image{
+	-webkit-filter: contrast(160%); filter: contrast(160%);
+}
+
+#blackwhiteDisplay {
+
+}
+
+#blackwhiteDisplay .image{
+	-webkit-filter: brightness(0.25); filter: brightness(0.25);
+}
