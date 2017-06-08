@@ -38,7 +38,7 @@ body {
 }
 
 #logo {
-	font-size: 40px;
+	font-size: 55px; /*isue edit: previous 40px*/
 	color: #5d5b5b;
 	font-weight: 100;
 }
@@ -48,8 +48,16 @@ body {
 	color: #5d5b5b;
 }
 
+#job { /*isue edit: job section is added*/
+	font-size: 14px;
+	color: rgba(93, 91, 91, 0.48);
+	font-weight: 300;
+	text-align: right;
+}
+
 #nav {
 	padding-top: 50px;
+	font-size: 17px; /*isue edit: added font size*/
 }
 
 #nav ul {
@@ -85,7 +93,7 @@ body {
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Page~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 #pageWrapper {
-	padding-left: 190px;
+	padding-left: 230px;
 	/*overflow-y: auto; */
 }
 

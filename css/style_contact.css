@@ -1,0 +1,29 @@
+#Wrapper {
+	margin: 0 auto;
+	max-width: 600px;
+}
+
+#title {
+	font-weight: 100;
+	text-align: center;
+	margin: 0;
+}
+
+#contactWrapper {
+	width: 100%;
+	text-align: center;
+	margin-top: 70px;
+	text-align: left;
+}
+
+.formText {
+	font-weight: 100;
+}
+
+input {
+	width: 100%;
+}
+
+textarea {
+	width: 100%;
+}
