@@ -2,6 +2,11 @@
 #Wrapper {
 	margin: 0 auto;
 	max-width: 800px;
+	min-width: 500px;
+}
+
+#aboutWrapper {
+	padding-top: 30px;
 }
 
 #title {
@@ -11,5 +16,20 @@
 }
 
 #profilePic {
-	width: 50%;
+	width: 30%;
+	vertical-align: top;
+}
+
+#bioWrapper {
+	display: inline-block;
+	width: 60%;
+	text-align: left;
+	margin-left: 5%;
+}
+
+.bio {
+	/*width: 65%;*/
+	color: black;
+	font-weight: 100;
+	/*margin: 0;*/
 }
