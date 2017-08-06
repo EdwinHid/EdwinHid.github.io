@@ -42,12 +42,40 @@ width: calc(100% - 270px);*/
   #at_album {
   	display: inherit;
   	cursor: pointer;
+  	font-size: 17px;
+  	color: black;
+  	margin-right: 5px;
   }
 
   .albumTitle {
   	display: inherit;
   	font-weight: 100;
   	cursor: pointer;
+  }
+
+  .albumTitle:hover {
+  	/*color: #dcc1c1;*/
+  	color: rgba(93, 91, 91, 0.48);
+  }
+
+  #at_asia:hover {
+  	/*color: #dcc1c1;*/
+  	color: rgba(93, 91, 91, 0.48);
+  }
+
+  #at_america:hover {
+  	/*color: #dcc1c1;*/
+  	color: rgba(93, 91, 91, 0.48);
+  }
+
+  #at_europe:hover {
+  	/*color: #dcc1c1;*/
+  	color: rgba(93, 91, 91, 0.48);
+  }
+
+  #at_blackwhite:hover {
+  	/*color: #dcc1c1;*/
+  	color: rgba(93, 91, 91, 0.48);
   }
 
   #longHorizontal {
@@ -187,6 +215,15 @@ width: calc(100% - 270px);*/
 	.photoDisplay {
 		display: none;
 		font-size: 0;
+		/*max-width: 800px;*/
+		/*min-width: 600px;*/
+		width: 800px;
+		margin: 0 auto;
+	}
+
+	.image {
+		width: 400px;
+		height: 267px;
 	}
 
 	#asiaDisplay {

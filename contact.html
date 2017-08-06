@@ -41,7 +41,7 @@
 				<div id="Wrapper">
 					<h1 id="title">Contact Me</h1>
 					<div id="contactWrapper">
-						<form action="https://formspree.io/isueshin@gmail.com" method="POST">
+						<form id="contactform" action="https://formspree.io/isueshin@gmail.com" method="POST">
 							<p class="formText">Name *</p>
 							<input type="text" name="name"/>
 							<p class="formText">Email Address *</p>
@@ -50,9 +50,10 @@
 							<input type="text" name="_subject"/>
 							<p class="formText">Message *</p>
 							<textarea name="message"></textarea>
-							<!-- <button type="submit">Send</button>	 -->
+							<input type="hidden" name="_next" value="//edwinhid.github.io/thanks.html" />
+							<input type="hidden" name="_subject" value="Website contact" />
+							<input type="text" name="_gotcha" style="display:none" />
 							<input id="sendButton" type="submit" value="Send"></input>
-							<!-- <input type="hidden" name="_next" value="//site.io/thanks.html" />	 -->		
 						</form>
 					</div>
 				</div>
@@ -61,7 +62,8 @@
 	</div>
 
 	<script type="text/javascript">
-
+	var contactform = document.getElementById('contactform');
+	contactform.setAttribute('action', '//formspree.io/'+'isueshin'+'@'+'gmail'+'.'+'com');
 	</script>
 
 </body>

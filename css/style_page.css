@@ -77,7 +77,8 @@ body {
 }
 
 .navOption a:hover {
-	color: #dcc1c1;
+	/*color: #dcc1c1;*/
+	color: rgba(93, 91, 91, 0.48);;
 }
 
 #socialPlugs {
