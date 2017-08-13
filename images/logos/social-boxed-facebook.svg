@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>social-boxed-facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M13.1927268,20 L16.00077,20 C18.2075324,20 20,18.2094838 20,16.00077 L20,3.99922997 C20,1.79246765 18.2094838,0 16.00077,0 L3.99922997,0 C1.79246765,0 0,1.79051625 0,3.99922997 L0,16.00077 C0,18.2075324 1.79051625,20 3.99922997,20 L10.3646829,20 L10.3646829,13.7016248 L8,13.7016248 L8,10.8573185 L10.3646829,10.8573185 L10.3646829,8.75972029 C10.3646829,6.32551475 11.7960958,5 13.8868881,5 C14.8883843,5 15.7492035,5.07744235 16,5.11210494 L16,7.65607532 L14.5498583,7.65673347 C13.4128954,7.65673347 13.1927268,8.21791631 13.1927268,9.04140862 L13.1927268,10.8573185 L15.9045255,10.8573185 L15.5513545,13.7016248 L13.1927268,13.7016248 L13.1927268,20 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols:-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/Social/Facebook/Boxed">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="social-boxed-facebook" fill="#000000" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

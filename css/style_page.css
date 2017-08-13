@@ -45,7 +45,8 @@ body {
 
 #logo a {
 	text-decoration: none;
-	color: #5d5b5b;
+	/*color: #5d5b5b;*/
+	color: black;
 }
 
 #job { /*isue edit: job section is added*/
@@ -87,8 +88,40 @@ body {
 }
 
 #socialPlugs a {
-	text-decoration: none;
+/*	text-decoration: none;
 	color: #5d5b5b;
+	width: 20px;
+	height: 20px;*/
+}
+
+#socialPlugs a img {
+/*	width: 20px;
+	height: 20px;*/
+}
+
+#linkLogo {
+	width: 20px;
+	height: 20px;
+}
+
+#fbLogo {
+	width: 20px;
+	height: 20px;
+}
+
+#instaLogo {
+	width: 23px;
+	height: 23px;
+	position: relative;
+	top: 2px;
+}
+
+#emailLogo {
+	position: relative;
+	left: 8px;
+	top: 2px;
+	width: 21px;
+	height: 21px;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Page~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/

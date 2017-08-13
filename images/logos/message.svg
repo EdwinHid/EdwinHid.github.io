@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>message</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M3.53659074,4 L9.65079137,9.2407434 L8.34920863,9.2407434 L14.4634093,4 L3.53659074,4 Z M16,5.31707778 L9.65079137,10.7592566 C9.27630164,11.0802478 8.72369836,11.0802478 8.34920863,10.7592566 L2,5.31707778 L2,12.9914698 C2,13.5485158 2.44781571,14 2.99406028,14 L15.0059397,14 C15.5523144,14 16,13.5493378 16,12.9914698 L16,5.31707778 Z M0,12.9914698 L0,5.0085302 C0,3.3490487 1.34013829,2 2.99406028,2 L15.0059397,2 C16.6604229,2 18,3.35055094 18,5.0085302 L18,12.9914698 C18,14.6509513 16.6598617,16 15.0059397,16 L2.99406028,16 C1.33957705,16 0,14.6494491 0,12.9914698 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols:-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/UI/Message">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="message" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+            <g id="Color/Base/Black" mask="url(#mask-2)"></g>
+        </g>
+    </g>
+</svg>
