@@ -39,27 +39,32 @@
 			<div id="pageWrapper">
 				<div id="Wrapper">
 					<div id="filmsPageWrapper">
-						<h1 id="title">Films</h1>
+						<h1 id="title">Narrative Work</h1>
 						<div id="filmsWrapper">
-							<a class="film" href="films/bohemia.html">
-								<div style="width:295px; height: 166px;"><img src="https://i.vimeocdn.com/video/571245267_295x166.webp" srcset="https://i.vimeocdn.com/video/571245267_590x332.webp 2x" alt="" class="thumbnail thumbnail_lg_wide"></div>
-								<div class="title">Bohemia</div>
-								<time class="age" datetime="2016-05-17T17:12:37-04:00" title="Tuesday, May 17, 2016 at 5:12 PM"></time>
+							<a class="film" href="films/look.html">
+								<div style="width:295px; height: 166px;"><img src="https://i.vimeocdn.com/video/624551449_295x166.webp" srcset="https://i.vimeocdn.com/video/624551449_590x332.webp 2x" alt="" class="thumbnail thumbnail_lg_wide"></div>
+								<div class="title">Look</div>
+								<time class="age" datetime="2016-01-27T22:15:22-05:00" title="Wednesday, January 27, 2016 at 10:15 PM"></time>
 							</a>
-							<a class="film" href="films/prague.html">
-								<div style="width:295px; height: 166px;"><img src="https://i.vimeocdn.com/video/564400158_295x166.webp" srcset="https://i.vimeocdn.com/video/564400158_590x332.webp 2x" alt="" class="thumbnail thumbnail_lg_wide"></div>
-								<div class="title">Prague</div>
-								<time class="age" datetime="2016-04-08T01:51:48-04:00" title="Friday, April 8, 2016 at 1:51 AM"></time>
+							<a class="film" href="films/down.html">
+								<div style="width:295px; height: 166px;"><img src="https://i.vimeocdn.com/video/610383853_295x166.webp" srcset="https://i.vimeocdn.com/video/610383853_590x332.webp 2x" alt="" class="thumbnail thumbnail_lg_wide"></div>
+								<div class="title">Down</div>
+								<time class="age" datetime="2016-12-30T15:28:32-05:00" title="Friday, December 30, 2016 at 3:28 PM"></time>
 							</a>
-							<a class="film" href="films/california_summer.html">
-								<div style="width:295px; height: 166px;"><img src="https://i.vimeocdn.com/video/536646154_295x166.webp" srcset="https://i.vimeocdn.com/video/536646154_590x332.webp 2x" alt="" class="thumbnail thumbnail_lg_wide"></div>
-								<div class="title">california, summer</div>
-								<time class="age" datetime="2015-09-24T11:59:38-04:00" title="Thursday, September 24, 2015 at 11:59 AM"></time>
+							<a class="film" href="films/break.html">
+								<div style="width:295px; height: 166px;"><img src="https://i.vimeocdn.com/video/522943187_295x166.webp" srcset="https://i.vimeocdn.com/video/522943187_590x332.webp 2x" alt="" class="thumbnail thumbnail_lg_wide"></div>
+								<div class="title">Break</div>
+								<time class="age" datetime="2015-05-11T14:04:53-05:00" title="Monday, May 11, 2015 at 2:04 PM EST"></time>
 							</a>
-							<a class="film" href="films/china.html">
-								<div style="width:295px; height: 166px;"><img src="https://i.vimeocdn.com/video/491321164_295x166.webp" srcset="https://i.vimeocdn.com/video/491321164_590x332.webp 2x" alt="" class="thumbnail thumbnail_lg_wide"></div>
-								<div class="title">China</div>
-								<time class="age" datetime="2014-10-02T09:15:06-04:00" title="Thursday, October 2, 2014 at 9:15 AM"></time>
+							<a class="film" href="films/real_world_experience_ep4.html">
+								<div style="width:295px; height: 166px;"><img src="https://i.vimeocdn.com/video/650189391_295x166.webp" srcset="https://i.vimeocdn.com/video/650189391_590x332.webp 2x" alt="" class="thumbnail thumbnail_lg_wide"></div>
+								<div class="title">Real World Experience Episode 4</div>
+								<time class="age" datetime="2017-08-15T20:43:16-05:00" title="Tuesday, August 15, 2017 at 8:43 PM EST"></time>
+							</a>
+							<a class="film" href="films/ballots.html">
+								<div style="width:295px; height: 166px;"><img src="https://i.vimeocdn.com/video/501075201_295x166.webp" srcset="https://i.vimeocdn.com/video/501075201_590x332.webp 2x" alt="" class="thumbnail thumbnail_lg_wide"></div>
+								<div class="title">[BALLOTS]</div>
+								<time class="age" datetime="2014-12-22T00:02:09-05:00" title="Monday, December 22, 2014 at 12:02 AM EST"></time>
 							</a>
 							<!-- <a class="film" href="films/melt.html">
 								<div style="width:295px; height: 166px;"><img src="https://i.vimeocdn.com/video/618676575_295x166.webp" srcset="https://i.vimeocdn.com/video/618676575_590x332.webp 2x" alt="" class="thumbnail thumbnail_lg_wide"></div>
@@ -119,7 +124,6 @@
 
 	<script type="text/javascript">
 	var today = new Date();
-
 	$(".age").each(function() {
 		var element = this;
 		var birth = new Date(this.getAttribute("datetime"));
@@ -128,28 +132,21 @@
 		var birthMonth = birth.getMonth();
 		var m = todayMonth - birthMonth;
 		// console.log("m: " + m + " -   type of: " + typeof m);
-
 		if (m < 0 || (m === 0 && today.getDate() < birth.getDate())) {
 			y--;
 		}
-
 		if (m <= 0) {
 			m = 12 + m;
 		}
-
 		// if (todayMonth > birthMonth) {
 		// 	var m = todayMonth - birthMonth;
 		// } else {
 		// 	var m = 11 - 
 		// }
-
 		// console.log("Today Month: " + todayMonth);
 		// console.log("Birth Month: " + birthMonth)
 		// var m = todayMonth - birthMonth;
 		// console.log(m);
-
-
-
 		if (y <= 0) {
 			if (m === 1) {
 				$(element).text(m.toString() + " month ago");
@@ -163,7 +160,6 @@
 				$(element).text(y.toString() + " years ago");
 			}
 		}
-
 	})
 	</script>
 </body>

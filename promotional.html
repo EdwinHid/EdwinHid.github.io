@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+	<title>Isue Promotional</title>
+	<meta charset="utf-8"/>
+	<meta name="author" content="Edwin Hidalgo">
+	<link rel="stylesheet" href="css/style_page.css" type="text/css">
+	<link rel="stylesheet" href="css/style_films.css" type="text/css">
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+	<!-- <link src="js/script_films.js" type="text/javascript"> -->
+</head>
+<body>
+	<div id="canvasWrapper">
+		<div id="canvas">
+			<div id="mobileNav">
+			</div>
+			<ul id="headerWrapper">
+				<div id="whitediv"></div>
+				<div id="header">
+					<div id="logo"><a href="index.html">Isue Shin</a></div>
+					<div id="job">Film Maker + Videographer based in LA</div>
+					<div id="nav">
+						<ul>
+							<li class="navOption"><a href="index.html">home</a></li>
+							<li class="navOption"><a href="about.html">about</a></li>
+							<li class="navOption"><a href="films.html">films</a></li>
+							<li class="navOption"><a href="photography.html">photography</a></li>
+							<li class="navOption"><a href="contact.html">contact me</a></li>
+						</ul>
+					</div>
+					<div id="socialPlugs">
+						<a href="https://www.linkedin.com/in/isue-shin-658505b3/" class="pluglink" target="_blank"><img id="linkLogo" src="images/logos/social-linkedin.svg"></a>
+						<a href="https://www.facebook.com/isuee?ref=br_rs" class="plugFB" target="_blank"><img id="fbLogo" src="images/logos/social-facebook.svg"></a>
+						<a href="https://www.instagram.com/isue/" class="plugInsta" target="_blank"><img id="instaLogo" src="images/logos/social-instagram.svg"></a>
+						<a href="contact.html" class="plugEmail"><img id="emailLogo" src="images/logos/message.svg"></a>
+					</div>
+				</div>
+			</ul>
+			<div id="pageWrapper">
+				<div id="Wrapper">
+					<div id="filmsPageWrapper">
+						<h1 id="title">Promotional Videos</h1>
+						<div id="filmsWrapper">
+							<a class="film" href="films/amira_video.html">
+								<div style="width:295px; height: 166px;"><img src="https://i.vimeocdn.com/video/650196530_295x166.webp" srcset="https://i.vimeocdn.com/video/650196530_590x332.webp 2x" alt="" class="thumbnail thumbnail_lg_wide"></div>
+								<div class="title">Amira video</div>
+								<time class="age" datetime="2017-08-15T21:50:33-05:00" title="Tuesday, August 15, 2017 at 9:50 PM EST"></time>
+							</a>
+							<a class="film" href="films/fall_2013_shoot_sneak_peek.html">
+								<div style="width:295px; height: 166px;"><img style="width:295px; height: 166px;" src="https://img.youtube.com/vi/PfleqKBx59o/0.jpg"></div>
+								<div class="title">Fall 2013 Shoot Sneak Peek</div>
+								<time class="age" datetime="2013-10-10T14:57:15-05:00" title="Sunday, November 10, 2013 at 2:57 PM"></time>
+							</a>
+							<a class="film" href="films/spotlight_sunday_communal_general_store.html">
+								<div style="width:295px; height: 166px;"><img style="width:295px; height: 166px;" src="https://img.youtube.com/vi/3xxXpoLh8Jk/0.jpg"></div>
+								<div class="title">Spotlight Sunday: Communal General Store</div>
+								<time class="age" datetime="2013-10-03T14:57:15-05:00" title="Sunday, November 03, 2013 at 2:57 PM"></time>
+							</a>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+	var today = new Date();
+
+	$(".age").each(function() {
+		var element = this;
+		var birth = new Date(this.getAttribute("datetime"));
+		var y = today.getFullYear() - birth.getFullYear();
+		var todayMonth = today.getMonth();
+		var birthMonth = birth.getMonth();
+		var m = todayMonth - birthMonth;
+		// console.log("m: " + m + " -   type of: " + typeof m);
+
+		if (m < 0 || (m === 0 && today.getDate() < birth.getDate())) {
+			y--;
+		}
+
+		if (m <= 0) {
+			m = 12 + m;
+		}
+
+		// if (todayMonth > birthMonth) {
+		// 	var m = todayMonth - birthMonth;
+		// } else {
+		// 	var m = 11 - 
+		// }
+
+		// console.log("Today Month: " + todayMonth);
+		// console.log("Birth Month: " + birthMonth)
+		// var m = todayMonth - birthMonth;
+		// console.log(m);
+
+
+
+		if (y <= 0) {
+			if (m === 1) {
+				$(element).text(m.toString() + " month ago");
+			} else {
+				$(element).text(m.toString() + " months ago");
+			}
+		} else {
+			if (y === 1) {
+				$(element).text(y.toString() + " year ago");
+			} else {
+				$(element).text(y.toString() + " years ago");
+			}
+		}
+
+	})
+	</script>
+</body>
+</html>

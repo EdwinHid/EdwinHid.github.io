@@ -40,38 +40,52 @@
 				<div id="Wrapper">
 					<!-- <div id="filmsPageWrapper"> -->
 					<h1 id="title">Films</h1>
-					<h4 id="filmSectionTitle"><p id="at_films">Films</p> &nbsp;<p class="albumTitle" id="at_narrative">Narrative Work</p> / <p class="albumTitle" id="at_experimental">Experimental Work</p> / <p class="albumTitle" id="at_promotional">Promotional Videos</p> / <p class="albumTitle" id="at_personal">Personal Travel Videos</p></h4>
+<!-- 					<div id="filmCategories"><h4 id="filmSectionTitle"><p id="at_films">Films</p> &nbsp;<p class="albumTitle" id="at_narrative">Narrative Work</p> / <p class="albumTitle" id="at_experimental">Experimental Work</p> / <p class="albumTitle" id="at_promotional">Promotional Videos</p> / <p class="albumTitle" id="at_personal">Personal Travel Videos</p></h4></div> -->
+
 
 					<!-- ~~~~~~~~~~~~~~~~~ Start of film sectioning off ~~~~~~~~~~~~~~~~~~-->
 					<div id="filmCategoriesSection">
-						<div class="filmCategory" id="narrativeWrapper">
-							<h1 id="narrativeTitle">
-								<!-- <a href="narrative.html"> -->
-								Narrative Work
-								<!-- </a> -->
-							</h1>
-						</div>
-						<div class="filmCategory" id="experimentalWrapper">
-							<h1 id="experimentalTitle">
-								<!-- <a href="experimental.html"> -->
-								Experimental Work
-								<!-- </a> -->
-							</h1>
-						</div>
-						<div class="filmCategory" id="promotionalWrapper">
-							<h1 id="promotionalTitle">
-								<!-- <a href="promotional.html"> -->
-								Promotional Videos
-								<!-- </a> -->
-							</h1>
-						</div>
-						<div class="filmCategory" id="personalWrapper">
-							<h1 id="personalTitle">
-								<!-- <a href="personal.html"> -->
-								Personal Travel Videos
-								<!-- </a> -->
-							</h1>
-						</div>
+
+						<a href="narrative.html">
+							<div class="filmCategory" id="narrativeWrapper">
+								<div class="overlay">
+									<div class="albumImage" id="albumImageNarrative" style="">
+									</div>
+								</div>
+								<div class="name">Narrative Work</div>
+							</div>
+						</a>
+
+						<a href="experimental.html">
+							<div class="filmCategory" id="experimentalWrapper">
+								<div class="overlay">
+									<div class="albumImage" id="albumImageExperimental" style="">
+									</div>
+								</div>
+								<div class="name">Experimental Work</div>
+							</div>
+						</a>
+
+						<a href="promotional.html">
+							<div class="filmCategory" id="promotionalWrapper">
+								<div class="overlay">
+									<div class="albumImage" id="albumImagePromotional" style="">
+									</div>
+								</div>
+								<div class="name">Promotional Videos</div>
+							</div>
+						</a>
+
+						<a href="personal.html">
+							<div class="filmCategory" id="personalWrapper">
+								<div class="overlay">
+									<div class="albumImage" id="albumImagePersonal" style="">
+									</div>
+								</div>
+								<div class="name">Personal Travel Videos</div>
+							</div>
+						</a>
+
 					</div>
 					<!-- ~~~~~~~~~~~~~~~~~ End of film sectioning off ~~~~~~~~~~~~~~~~~~-->
 				</div>
@@ -131,11 +145,11 @@
 				</div>
 
 				<div class="filmDisplay" id="promotionalDisplay">
-					<h1>promotional</h1>
+					<!-- <h1>promotional</h1> -->
 				</div>
 
 				<div class="filmDisplay" id="personalDisplay">
-					<h1>personal</h1>
+					<!-- <h1>personal</h1> -->
 				</div>
 
 
@@ -202,104 +216,92 @@
 				</div>
 
 				<script type="text/javascript">
-				$( "#at_films" ).click(function() {
-					$(".filmDisplay").hide();
-					$("#filmCategoriesSection").show();
-					$(".albumTitle").css("color", "");
-					$(".albumTitle").css("font-weight", "100");
-				});
+				// $( "#at_films" ).click(function() {
+				// 	$(".filmDisplay").hide();
+				// 	$("#filmCategoriesSection").show();
+				// 	$(".albumTitle").css("color", "");
+				// 	$(".albumTitle").css("font-weight", "100");
+				// });
 
-				$( "#narrativeTitle, #at_narrative" ).click(function() {
-					$("#filmCategoriesSection").hide();
-					$(".filmDisplay").hide();
-					$("#narrativeDisplay").show();
-					$(".albumTitle").css("color", "");
-					$(".albumTitle").css("font-weight", "100");
-					$("#at_narrative").css("color", "black");
-					$("#at_narrative").css("font-weight", "400");
-				});
+				// $( "#narrativeTitle, #at_narrative" ).click(function() {
+				// 	$("#filmCategoriesSection").hide();
+				// 	$(".filmDisplay").hide();
+				// 	$("#narrativeDisplay").show();
+				// 	$(".albumTitle").css("color", "");
+				// 	$(".albumTitle").css("font-weight", "100");
+				// 	$("#at_narrative").css("color", "black");
+				// 	$("#at_narrative").css("font-weight", "400");
+				// });
 
-				$( "#experimentalTitle, #at_experimental" ).click(function() {
-					$("#filmCategoriesSection").hide();
-					$(".filmDisplay").hide();
-					$("#experimentalDisplay").show();
-					$(".albumTitle").css("color", "");
-					$(".albumTitle").css("font-weight", "100");
-					$("#at_experimental").css("color", "black");
-					$("#at_experimental").css("font-weight", "400");
-				});
+				// $( "#experimentalTitle, #at_experimental" ).click(function() {
+				// 	$("#filmCategoriesSection").hide();
+				// 	$(".filmDisplay").hide();
+				// 	$("#experimentalDisplay").show();
+				// 	$(".albumTitle").css("color", "");
+				// 	$(".albumTitle").css("font-weight", "100");
+				// 	$("#at_experimental").css("color", "black");
+				// 	$("#at_experimental").css("font-weight", "400");
+				// });
 
-				$( "#promotionalTitle, #at_promotional" ).click(function() {
-					$("#filmCategoriesSection").hide();
-					$(".filmDisplay").hide();
-					$("#promotionalDisplay").show();
-					$(".albumTitle").css("color", "");
-					$(".albumTitle").css("font-weight", "100");
-					$("#at_promotional").css("color", "black");
-					$("#at_promotional").css("font-weight", "400");
-				});
+				// $( "#promotionalTitle, #at_promotional" ).click(function() {
+				// 	$("#filmCategoriesSection").hide();
+				// 	$(".filmDisplay").hide();
+				// 	$("#promotionalDisplay").show();
+				// 	$(".albumTitle").css("color", "");
+				// 	$(".albumTitle").css("font-weight", "100");
+				// 	$("#at_promotional").css("color", "black");
+				// 	$("#at_promotional").css("font-weight", "400");
+				// });
 
-				$( "#personalTitle, #at_personal" ).click(function() {
-					$("#filmCategoriesSection").hide();
-					$(".filmDisplay").hide();
-					$("#personalDisplay").show();
-					$(".albumTitle").css("color", ""); 
-					$(".albumTitle").css("font-weight", "100");
-					$("#at_personal").css("color", "black");
-					$("#at_personal").css("font-weight", "400"); 
-				});
-
-
-
-				// Genrating Date For Videos
-
-				var today = new Date();
-
-				$(".age").each(function() {
-					var element = this;
-					var birth = new Date(this.getAttribute("datetime"));
-					var y = today.getFullYear() - birth.getFullYear();
-					var todayMonth = today.getMonth();
-					var birthMonth = birth.getMonth();
-					var m = todayMonth - birthMonth;
-		// console.log("m: " + m + " -   type of: " + typeof m);
-
-		if (m < 0 || (m === 0 && today.getDate() < birth.getDate())) {
-			y--;
-		}
-
-		if (m <= 0) {
-			m = 12 + m;
-		}
-
-		// if (todayMonth > birthMonth) {
-		// 	var m = todayMonth - birthMonth;
-		// } else {
-		// 	var m = 11 - 
-		// }
-
-		// console.log("Today Month: " + todayMonth);
-		// console.log("Birth Month: " + birthMonth)
-		// var m = todayMonth - birthMonth;
-		// console.log(m);
+				// $( "#personalTitle, #at_personal" ).click(function() {
+				// 	$("#filmCategoriesSection").hide();
+				// 	$(".filmDisplay").hide();
+				// 	$("#personalDisplay").show();
+				// 	$(".albumTitle").css("color", ""); 
+				// 	$(".albumTitle").css("font-weight", "100");
+				// 	$("#at_personal").css("color", "black");
+				// 	$("#at_personal").css("font-weight", "400"); 
+				// });
 
 
 
-		if (y <= 0) {
-			if (m === 1) {
-				$(element).text(m.toString() + " month ago");
-			} else {
-				$(element).text(m.toString() + " months ago");
-			}
-		} else {
-			if (y === 1) {
-				$(element).text(y.toString() + " year ago");
-			} else {
-				$(element).text(y.toString() + " years ago");
-			}
-		}
+				// // Genrating Date For Videos
 
-	})
-</script>
-</body>
-</html>
+				// var today = new Date();
+
+				// $(".age").each(function() {
+				// 	var element = this;
+				// 	var birth = new Date(this.getAttribute("datetime"));
+				// 	var y = today.getFullYear() - birth.getFullYear();
+				// 	var todayMonth = today.getMonth();
+				// 	var birthMonth = birth.getMonth();
+				// 	var m = todayMonth - birthMonth;
+
+				// 	if (m < 0 || (m === 0 && today.getDate() < birth.getDate())) {
+				// 		y--;
+				// 	}
+
+				// 	if (m <= 0) {
+				// 		m = 12 + m;
+				// 	}
+
+
+
+				// 	if (y <= 0) {
+				// 		if (m === 1) {
+				// 			$(element).text(m.toString() + " month ago");
+				// 		} else {
+				// 			$(element).text(m.toString() + " months ago");
+				// 		}
+				// 	} else {
+				// 		if (y === 1) {
+				// 			$(element).text(y.toString() + " year ago");
+				// 		} else {
+				// 			$(element).text(y.toString() + " years ago");
+				// 		}
+				// 	}
+
+				// })
+				</script>
+			</body>
+	</html>
