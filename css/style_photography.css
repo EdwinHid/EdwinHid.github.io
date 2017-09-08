@@ -226,7 +226,9 @@ width: calc(100% - 270px);*/
 	.image {
 		/*width: 400px;*/
 		/*height: 267px;*/
-		height: 240.3px;
+		/*height: 240.3px;*/
+		height: 480.6px;
+		width: 100%;
 	}
 
 	#asiaDisplay {
@@ -235,7 +237,7 @@ width: calc(100% - 270px);*/
 
 	#asiaDisplay .image {
 		/*-webkit-filter: saturate(3); filter: saturate(3);*/
-		width: 50%;
+		/*width: 50%;*/
 		/*display: inline-block;*/
 		/*float: left;*/
 	}
@@ -246,7 +248,7 @@ width: calc(100% - 270px);*/
 
 	#americaDisplay .image{
 		/*-webkit-filter: grayscale(100%); filter: grayscale(100%);*/
-		width: 50%;
+		/*width: 50%;*/
 		/*display: inline-block;*/
 		/*float: left;*/
 	}
@@ -257,7 +259,7 @@ width: calc(100% - 270px);*/
 
 	#europeDisplay .image{
 		/*-webkit-filter: contrast(160%); filter: contrast(160%);*/
-		width: 50%;
+		/*width: 50%;*/
 		/*display: inline-block;*/
 		/*float: left;*/
 	}
@@ -268,7 +270,7 @@ width: calc(100% - 270px);*/
 
 	#blackwhiteDisplay .image{
 		/*-webkit-filter: brightness(0.25); filter: brightness(0.25);*/
-		width: 50%;
+		/*width: 50%;*/
 		/*display: inline-block;*/
 		/*float: left;*/
 	}
