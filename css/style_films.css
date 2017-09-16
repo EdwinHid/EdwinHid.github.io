@@ -161,11 +161,12 @@
 		display: inline-block;
 		width: 300px;
 		position: relative;
-		height: 210px;
+		/*height: 210px;*/
 		text-align: left;
 		text-decoration: none;
 		margin-top: 30px;
 		color: black;
+		vertical-align: text-top;
 	}
 
 	.film:hover {
@@ -187,5 +188,19 @@
 		padding-top: 1px;
 		color: #5d5b5b;
 		font-weight: 100;
+		font-size: 14px;
+	}
+
+	.filmDescription {
+		padding-top: 1px;
+		color: #5d5b5b;
+		font-weight: 100;
+		font-size: 14px;
+		/*text-align: right;*/
+	}
+
+	.imageAward {
+		width: 145px;
+		height: 100px;
 	}
 

@@ -1,7 +1,8 @@
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Styles~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 body {
-	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	/*font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;*/
+	font-family: Calibri;
 	max-width: 1250px;
 	margin: 0 auto !important;
 	float: none !important;
@@ -38,9 +39,16 @@ body {
 }
 
 #logo {
-	font-size: 55px; /*isue edit: previous 40px*/
+	font-size: 53px; /*isue edit: previous 40px*/
 	color: #5d5b5b;
 	font-weight: 100;
+
+	display:inline-block;
+	-webkit-transform:scale(1,1.15);
+	-moz-transform:scale(1,1.15); 
+	-ms-transform:scale(1,1.15); 
+	-o-transform:scale(1,1.15); 
+	transform:scale(1,1.15);
 }
 
 #logo a {
@@ -54,6 +62,9 @@ body {
 	color: rgba(93, 91, 91, 0.48);
 	font-weight: 300;
 	text-align: right;
+	width: 170px;
+	left: 17px;
+	position: relative;
 }
 
 #nav {
