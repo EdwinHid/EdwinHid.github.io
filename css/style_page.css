@@ -2,7 +2,8 @@
 
 body {
 	/*font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;*/
-	font-family: Calibri;
+	/*font-family: Calibri;*/
+	font-family: "Lato", Calibri, sans-serif;
 	max-width: 1250px;
 	margin: 0 auto !important;
 	float: none !important;
@@ -39,7 +40,7 @@ body {
 }
 
 #logo {
-	font-size: 53px; /*isue edit: previous 40px*/
+	font-size: 49px; /*isue edit: previous 40px*/
 	color: #5d5b5b;
 	font-weight: 100;
 
@@ -58,7 +59,7 @@ body {
 }
 
 #job { /*isue edit: job section is added*/
-	font-size: 14px;
+	font-size: 13px;
 	color: rgba(93, 91, 91, 0.48);
 	font-weight: 300;
 	text-align: right;
@@ -69,7 +70,7 @@ body {
 
 #nav {
 	padding-top: 50px;
-	font-size: 17px; /*isue edit: added font size*/
+	font-size: 16px; /*isue edit: added font size*/
 }
 
 #nav ul {
