@@ -7,11 +7,12 @@
 }
 
 #whitediv {
-	width: 40px;
-	height: 100%;
+	width: 230px;
+	height: 110%;
 	background-color: white;
 	position: fixed;
 	left: 0;
+	bottom: 40px;
 }
 
 #title {
@@ -217,9 +218,9 @@ width: calc(100% - 270px);*/
 		display: none;
 		font-size: 0;
 		/*max-width: 800px;*/
-		/*min-width: 600px;*/
+		min-width: 400px;
 		/*width: 800px;*/
-		width: 720px;
+		max-width: 720px;
 		margin: 0 auto;
 	}
 
@@ -227,7 +228,7 @@ width: calc(100% - 270px);*/
 		/*width: 400px;*/
 		/*height: 267px;*/
 		/*height: 240.3px;*/
-		height: 480.6px;
+		/*height: 480.6px;*/
 		width: 100%;
 	}
 
