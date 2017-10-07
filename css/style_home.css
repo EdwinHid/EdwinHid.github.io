@@ -1,8 +1,10 @@
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Home~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 #Wrapper {
 	margin: 0 auto;
-	margin-top: 70px;
-	max-width: 800px;
+	/*margin-top: 70px;*/
+	margin-top: 40px;
+	/*max-width: 800px;*/
+	min-width: 500px;
 }
 
 .videoWrapper {
