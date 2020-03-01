@@ -15,134 +15,138 @@
 	text-align: center;
 	/*margin-top: 30px;*/
 
-	}
+}
 
-	#filmCategoriesSection {
-		/*margin-top: 82px;*/
-		margin-top: 30px;
-	}
+#filmCategoriesSection {
+	/*margin-top: 82px;*/
+	margin-top: 30px;
+}
 
-	#filmCategoriesSection a {
-		text-decoration: none;
-	}
+#filmCategoriesSection a {
+	text-decoration: none;
+}
 
-	#filmSectionTitle {
-		font-weight: 500;
-		margin-bottom: 10px;
-		/*margin-top: 70px;*/
-		margin-top: 18px;
-		color: #5d5b5b;
-		display: inline-block;
-	}
+#filmSectionTitle {
+	font-weight: 500;
+	margin-bottom: 10px;
+	/*margin-top: 70px;*/
+	margin-top: 18px;
+	color: #5d5b5b;
+	display: inline-block;
+}
 
-	#at_films {
-  	display: inherit;
-  	cursor: pointer;
-  	font-size: 17px;
-  	color: black;
-  	margin-right: 5px;
-  }
+#at_films {
+	display: inherit;
+	cursor: pointer;
+	font-size: 17px;
+	color: black;
+	margin-right: 5px;
+}
 
-  .albumTitle {
-  	display: inherit;
-  	font-weight: 100;
-  	cursor: pointer;
-  }
+.albumTitle {
+	display: inherit;
+	font-weight: 100;
+	cursor: pointer;
+}
 
-  .albumTitle:hover {
-  	/*color: #dcc1c1;*/
-  	color: rgba(93, 91, 91, 0.48);
-  }
+.albumTitle:hover {
+	/*color: #dcc1c1;*/
+	color: rgba(93, 91, 91, 0.48);
+}
 
-  #at_narrative:hover {
-  	/*color: #dcc1c1;*/
-  	color: rgba(93, 91, 91, 0.48);
-  }
+#at_narrative:hover {
+	/*color: #dcc1c1;*/
+	color: rgba(93, 91, 91, 0.48);
+}
 
-  #at_experimental:hover {
-  	/*color: #dcc1c1;*/
-  	color: rgba(93, 91, 91, 0.48);
-  }
+#at_experimental:hover {
+	/*color: #dcc1c1;*/
+	color: rgba(93, 91, 91, 0.48);
+}
 
-  #at_promotional:hover {
-  	/*color: #dcc1c1;*/
-  	color: rgba(93, 91, 91, 0.48);
-  }
+#promotionalWrapper{
+	display: none;
+}
 
-  #at_personal:hover {
-  	/*color: #dcc1c1;*/
-  	color: rgba(93, 91, 91, 0.48);
-  }
+#at_promotional:hover {
+	/*color: #dcc1c1;*/
+	color: rgba(93, 91, 91, 0.48);
+}
 
-  .filmCategory {
-  	/*width: 100%;*/
-  	min-width: 600px;
-  	max-width: 800px;
-  	height: 220px;
-  	text-align: center;
-  	text-decoration: none;
-  	margin-bottom: 9px;
-  	color: black;
-  }
+#at_personal:hover {
+	/*color: #dcc1c1;*/
+	color: rgba(93, 91, 91, 0.48);
+}
 
-  .filmCategory:hover {
+.filmCategory {
+	/*width: 100%;*/
+	min-width: 600px;
+	max-width: 800px;
+	height: 220px;
+	text-align: center;
+	text-decoration: none;
+	margin-bottom: 9px;
+	color: black;
+}
 
-  }
+.filmCategory:hover {
 
-	.overlay {
-		position: relative;
-	}
+}
 
-	.filmCategory:hover > .overlay {
-		-webkit-transition: all 200ms ease;
-		-moz-transition: all 200ms ease;
-		-ms-transition: all 200ms ease;
-		-o-transition: all 200ms ease;
-		transition: all 200ms ease;
+.overlay {
+	position: relative;
+}
 
-		background-color: #000;
-		opacity: 0.8;
-		border-radius: 30px;
-	}
+.filmCategory:hover > .overlay {
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
 
-	.albumImage {
-		position: absolute;
-		float: left;
-		width: 100%;
-		height: 228px;
-		background-size: cover;
-	}
+	background-color: #000;
+	opacity: 0.8;
+	border-radius: 30px;
+}
 
-	#albumImageNarrative {
-		background-image: url("../images/film_pics/narrativecover.png");
-		background-position: 0% 60%;
-	}
+.albumImage {
+	position: absolute;
+	float: left;
+	width: 100%;
+	height: 228px;
+	background-size: cover;
+}
 
-	#albumImageExperimental {
-		background-image: url("../images/film_pics/experimentalcover.png");
-		background-position: 0% 60%;
-	}
+#albumImageNarrative {
+	background-image: url("../images/film_pics/narrativecover.png");
+	background-position: 0% 60%;
+}
 
-	#albumImagePromotional {
-		background-image: url("../images/film_pics/promotionalcover.jpg");
-		background-position: 0% 60%;
-	}
+#albumImageExperimental {
+	background-image: url("../images/film_pics/experimentalcover.png");
+	background-position: 0% 60%;
+}
 
-		#albumImagePersonal {
-		background-image: url("../images/film_pics/personalcover.png");
-		background-position: 0% 50%;
-	}
+#albumImagePromotional {
+	background-image: url("../images/film_pics/promotionalcover.jpg");
+	background-position: 0% 60%;
+}
 
-	.filmCategory .name {
-		position: relative;
-		top: 80px;
-		color: white;
-		text-align: center;
-		font-weight: 100;
-		font-size: 50px;
-		/*margin-right: 5%;*/
-		height: 0px;
-	}
+#albumImagePersonal {
+	background-image: url("../images/film_pics/personalcover.png");
+	background-position: 0% 50%;
+}
+
+.filmCategory .name {
+	position: relative;
+	top: 80px;
+	color: white;
+	text-align: center;
+	font-weight: 100;
+	font-size: 50px;
+	/*margin-right: 5%;*/
+	height: 0px;
+}
 
 /*  .filmCategory h1 a {
   	text-decoration: none;
@@ -150,59 +154,59 @@
 
   .filmCategory h1 {
   	text-decoration: none;
-  }*/
+  	}*/
 
-  .filmDisplay {
-  	display: none;
-  	width: 800px;
-		margin: 0 auto;
-  }
+.filmDisplay {
+	display: none;
+	width: 800px;
+	margin: 0 auto;
+}
 
-	.film {
-		padding: 10px;
-		display: inline-block;
-		width: 300px;
-		position: relative;
-		/*height: 210px;*/
-		text-align: left;
-		text-decoration: none;
-		margin-top: 30px;
-		color: black;
-		vertical-align: text-top;
-	}
+.film {
+	padding: 10px;
+	display: inline-block;
+	width: 300px;
+	position: relative;
+	/*height: 210px;*/
+	text-align: left;
+	text-decoration: none;
+	margin-top: 30px;
+	color: black;
+	vertical-align: text-top;
+}
 
-	.film:hover {
-		/*color: #dcc1c1;*/
-		color: rgba(93, 91, 91, 0.48);
-		cursor: pointer;
-	}
+.film:hover {
+	/*color: #dcc1c1;*/
+	color: rgba(93, 91, 91, 0.48);
+	cursor: pointer;
+}
 
-	.film div img {
-		float: left;
-		/*padding: 10px;*/
-	}
+.film div img {
+	float: left;
+	/*padding: 10px;*/
+}
 
-	.film .title {
-		padding-top: 1px;
-	}
+.film .title {
+	padding-top: 1px;
+}
 
-	.film time {
-		padding-top: 1px;
-		color: #5d5b5b;
-		font-weight: 100;
-		font-size: 14px;
-	}
+.film time {
+	padding-top: 1px;
+	color: #5d5b5b;
+	font-weight: 100;
+	font-size: 14px;
+}
 
-	.filmDescription {
-		padding-top: 1px;
-		color: #5d5b5b;
-		font-weight: 100;
-		font-size: 14px;
-		/*text-align: right;*/
-	}
+.filmDescription {
+	padding-top: 1px;
+	color: #5d5b5b;
+	font-weight: 100;
+	font-size: 14px;
+	/*text-align: right;*/
+}
 
-	.imageAward {
-		width: 145px;
-		height: 100px;
-	}
+.imageAward {
+	width: 145px;
+	height: 100px;
+}
 
